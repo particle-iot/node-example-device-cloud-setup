@@ -1,0 +1,20 @@
+{
+    "name": "node-example-device-cloud-setup",
+    "version": "0.0.1",
+    "description": "Example script for doing Particle cloud configuration for product devices",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "rick@particle.io",
+    "contributors": [],
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@particle/node-example-helper": "0.0.1",
+        "axios": "^0.22.0",
+        "particle-api-js": "^9.1.0"
+    },
+    "engines": {
+        "node": ">=12.14.0"
+    }
+}
