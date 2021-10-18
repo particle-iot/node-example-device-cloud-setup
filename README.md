@@ -11,27 +11,11 @@ Given a file of Device IDs or serial numbers, or one entered manually from the k
 - Set the device name to the serial number (optional)
 - Add a device group, either fixed name or date-based
 
-## Installation (locally)
-
-1. If you have not already installed [node.js](https://nodejs.org/), v12 or later. The current LTS is 14.18.1, and the current LTS is the recommended version to use.
-
-2. Download this repository from Github. 
-
-3. From a command prompt or terminal window:
-
-```
-cd node-exmaple-device-cloud-setup
-npm install
-node app.js
-```
-
-4. If you just run the tool, it will prompt you to log in, select your product.
-
-5. You can also edit config.js to customize the configuration, or edit the source in app.js to really customize the behavior.
-
 ## Running in a web browser
 
 If you do not want to install node.js, or can't, because you have a managed computer or Chromebook, you can run the tool from the Chrome web browser on Windows, Linux, Mac, and Chromebook. This uses [Stackblitz](https://stackblitz.com) to run a virtual machine and node *in your web browser*.
+
+Open this page in Chrome: [https://stackblitz.com/edit/node-ufhuyk](https://stackblitz.com/edit/node-ufhuyk?file=app.js)
 
 In the Terminal pane in the lower center of the window, enter the command:
 
@@ -45,9 +29,30 @@ If you create a Stackblitz account you can save your project with changes and co
 
 Other web browsers will be supported in the future, but this currently only works with Chrome. 
 
+
+## Installation (locally)
+
+1. If you have not already installed [node.js](https://nodejs.org/), v12 or later. The current LTS is 14.18.1, and the current LTS is the recommended version to use.
+
+2. Download this repository from [Github](https://github.com/particle-iot/node-example-device-cloud-setup). 
+
+3. From a command prompt or terminal window:
+
+```
+cd node-exmaple-device-cloud-setup
+npm install
+node app.js
+```
+
+4. If you just run the tool, it will prompt you to log in, select your product.
+
+5. You can also edit config.js to customize the configuration, or edit the source in app.js to really customize the behavior.
+
+
 ## Example usage
 
 ```
+cd node-example-device-cloud-setup
 node app.js
 Particle username (account email): user@company.com
 Password: (will not display as you type) 
