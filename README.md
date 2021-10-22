@@ -15,7 +15,9 @@ Given a file of Device IDs or serial numbers, or one entered manually from the k
 
 If you do not want to install node.js, or can't, because you have a managed computer or Chromebook, you can run the tool from the Chrome web browser on Windows, Linux, Mac, and Chromebook. This uses [Stackblitz](https://stackblitz.com) to run a virtual machine and node *in your web browser*.
 
-Open this page in Chrome: [https://stackblitz.com/edit/node-ufhuyk](https://stackblitz.com/edit/node-ufhuyk?file=app.js)
+Open this page in Chrome: Open this page in Chrome: [https://stackblitz.com/github/particle-iot/node-example-device-cloud-setup](https://stackblitz.com/github/particle-iot/node-example-device-cloud-setup)
+
+
 
 In the Terminal pane in the lower center of the window, enter the command:
 
@@ -115,6 +117,9 @@ If the tool is running stop it (Ctrl-C), then run it again (`node app.js`) after
 Finally, since it's node.js, you can just edit the app.js file to really customize the behavior. For example, if you wanted a different device group name format, or wanted to use a different device name format, you could implement this in custom code. Most of the changes would be in the deviceCloudSetup function near the top of the file.
 
 ## Version History
+
+- Github Repository: [https://github.com/particle-iot/node-example-device-cloud-setup](https://github.com/particle-iot/node-example-device-cloud-setup)
+- License: Apache 2.0
 
 ### 0.0.1 (2021-11-14)
 
