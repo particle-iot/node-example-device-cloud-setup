@@ -2,3 +2,4 @@ node_modules
 .DS_Store
 settings.json
 devices.txt
+package-lock.json

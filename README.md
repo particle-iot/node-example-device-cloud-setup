@@ -121,6 +121,10 @@ Finally, since it's node.js, you can just edit the app.js file to really customi
 - Github Repository: [https://github.com/particle-iot/node-example-device-cloud-setup](https://github.com/particle-iot/node-example-device-cloud-setup)
 - License: Apache 2.0
 
+### 0.0.2 (2021-11-26)
+
+- Remove package-lock.json as it does not load properly on Stackblitz.
+
 ### 0.0.1 (2021-11-14)
 
 - Initial version
